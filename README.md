@@ -12,3 +12,20 @@ Truffle, geliştiricilerin Ethereum üzerinde blok zinciri tabanlı Dapps oluşt
 
 ## ReactJS
 React, kullanıcı arayüzü (UI) oluşturmak için kullanılan en popüler JavaScript kütüphanesidir. Web siteleri işlemek için kullanıcı çıktısına harika yanıt sunan bir yöntemi kullanır. Bu aracın bileşenleri Facebook tarafından geliştirilmiştir. 2013'de açık kaynaklı bir JavaScript olarak piyasaya sürülmüştür.
+
+## abi  
+
+/* abi Nedir ?  
+Derlenmiş kodun byteların içerisinden o functionları çağırır.Müzenin rehber defteri gibidir.  
+Bir contract ile etkileşim kurulacak ise 'abi' ihtiyaç vardır. Compile edilerek elde edilir.*/  
+
+### Commands
+`truffle compile`  
+`truffle migrate`  
+
+### NOTES  
+`npm audit fix` ***Contractaki güvenlik açıklarını gidermemize yarıyor.***
+
+### Libraries  
+`npm install @openzeppelin/contracts`  
+`npm install truffle-contract`  

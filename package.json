@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Memo-Lee/web3-app/issues"
   },
-  "homepage": "https://github.com/Memo-Lee/web3-app#readme"
+  "homepage": "https://github.com/Memo-Lee/web3-app#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.0",
+    "truffle-contract": "^4.0.31"
+  }
 }
