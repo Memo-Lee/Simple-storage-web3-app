@@ -7,7 +7,7 @@ const web3provider = 'http://127.0.0.1:7545';
 const storage = truffleContract(storageContract);
 storage.setProvider(web3provider); //contratımız web3provider ile etkileşim kuruyor.
 
-contract('SimpleStorage',(accounts)=>{ //accounts, ganache hesapları
+contract('SimpleStorage', (accounts) => { //accounts, ganache hesapları
     let storageInstance;
     const owner = accounts[0] //owner
     //const owner = accounts[1] //user
