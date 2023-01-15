@@ -35,3 +35,5 @@ Bir contract ile etkileşim kurulacak ise 'abi' ihtiyaç vardır. Compile ediler
 ### Libraries  
 `npm install @openzeppelin/contracts`  
 `npm install truffle-contract`  
+`npm create-react-app client`  
+`\client > npm install web3`  
