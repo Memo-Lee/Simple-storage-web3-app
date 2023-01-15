@@ -30,6 +30,7 @@ Bir contract ile etkileşim kurulacak ise 'abi' ihtiyaç vardır. Compile ediler
 `truffle migrate --network 'name'` ***Network name change***  
 `truffle test`  ***Contractımızı test ediyor***  
 `npm install config`  ***Daha esnek bir yapı oluşturabiliriz.***  
+`truffle deploy --reset`  ***Contract aynı şekilde tekrar döndürür***  
 
 
 ### Libraries  
